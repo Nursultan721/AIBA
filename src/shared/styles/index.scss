@@ -36,7 +36,7 @@ ul li {
 
 .row {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
 }
 
 .col-4 {
