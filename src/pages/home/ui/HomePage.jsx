@@ -1,11 +1,11 @@
-import { Header } from '@/widgets/header';
-import { Banner } from '@/widgets/banner';
+import { Header, Banner, About } from "@/widgets";
 
 export function HomePage() {
   return (
     <div className="content-wrap">
       <Header />
       <Banner />
+      <About />
     </div>
   );
 }
