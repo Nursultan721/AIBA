@@ -1,5 +1,4 @@
-import { Header } from '@/widgets/header';
-import { Banner } from '@/widgets/banner';
+import { Header, Banner } from "@/widgets";
 
 export function HomePage() {
   return (
