@@ -1,6 +1,37 @@
-.banner{
-    width: 100%;
-    height: 400px;
-    background-image: url('../../assets/');
-    background-size: cover;
+.banner {
+  width: 100vw;
+  height: 900px;
+  background-image: url("../../shared/assets/banner.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &__title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 80px;
+    line-height: 110.00000000000001%;
+    letter-spacing: -4%;
+    color: #ffffff;
+  }
+  &__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: -6%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 20px 300px;
+  }
 }
