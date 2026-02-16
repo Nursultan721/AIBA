@@ -1,6 +1,6 @@
-import { HomePage } from '@/pages/home';
-import '@/shared/fonts/index.scss';
-import '@/shared/styles/index.scss';
+import { HomePage } from "@/pages/home";
+import "@/shared/fonts/index.scss";
+import "@/shared/styles/index.scss";
 
 export function App() {
   return (
