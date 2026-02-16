@@ -2,6 +2,26 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Архитектура (FSD)
+
+Проект организован по [Feature-Sliced Design](https://feature-sliced.design/):
+
+```
+src/
+├── app/           # Инициализация приложения, глобальные стили
+├── pages/         # Страницы (композиция виджетов)
+│   └── home/
+├── widgets/       # Крупные самостоятельные блоки UI
+│   ├── header/
+│   └── banner/
+├── shared/        # Переиспользуемый код, ассеты, стили
+│   ├── assets/
+│   └── styles/
+└── main.jsx
+```
+
+Импорты: алиас `@/` указывает на `src/` (настроен в `vite.config.js` и `jsconfig.json`).
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
