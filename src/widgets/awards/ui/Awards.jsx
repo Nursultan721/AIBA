@@ -51,7 +51,7 @@ export const Awards = () => {
   };
 
   return (
-    <section className="awards">
+    <section className="awards" id="awards">
       <div className="container">
         <h3 className="awards__subtitle">Наши награды</h3>
         <h2 className="awards__title">История академии и планы на будущее</h2>
