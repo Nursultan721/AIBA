@@ -1,4 +1,4 @@
-import { Header, Banner, About } from "@/widgets";
+import { Header, Banner, About, College, School,KinderGarden, Awards } from "@/widgets";
 
 export function HomePage() {
   return (
@@ -6,6 +6,10 @@ export function HomePage() {
       <Header />
       <Banner />
       <About />
+      <College />
+      <School />
+      <KinderGarden />
+      <Awards />
     </div>
   );
 }

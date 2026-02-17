@@ -1,0 +1,54 @@
+.college {
+  margin-top: 120px;
+
+  &__content {
+    width: 60%;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    &-left {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    &-right {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 57px;
+    background-color: #c11321;
+    border-radius: 100px;
+    border: none;
+    a {
+      font-family: Roboto;
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 20px;
+      leading-trim: NONE;
+      line-height: 110.00000000000001%;
+      letter-spacing: -4%;
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+  img {
+    margin: 20px 0;
+  }
+}
